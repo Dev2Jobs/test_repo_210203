@@ -18,4 +18,6 @@ class Base_item_1_ViewController: UIViewController {
     @IBAction func Click_sky_btn(_ sender: Any) {
         self.presentingViewController?.dismiss(animated: true)
     }
+    
+    // 210204 18:14
 }

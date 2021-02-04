@@ -7,6 +7,8 @@ target 'test210120' do
 	pod 'Alamofire'
   	pod 'SnapKit'
         pod 'Then'
+	pod 'SwiftLint'
+	pod 'Kingfisher'
   # Pods for test210120
 
   target 'test210120Tests' do

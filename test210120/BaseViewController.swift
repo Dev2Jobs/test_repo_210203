@@ -22,5 +22,7 @@ class BaseViewController: UITabBarController {
     }
     
     //--------// 210204 21:16
+    
+    // 210204 21:39 make se2cond
 
 }

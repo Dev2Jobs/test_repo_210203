@@ -14,10 +14,26 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    @objc func asdasd() {
+/*
+         int screenSizeW = (int)[[UIScreen mainScreen] bounds].size.width;
+
+        int screenSizeH = (int)[[UIScreen mainScreen] bounds].size.height;
+
+        NSLog(@"screen size : %d %d", screenSizeW, screenSizeH);
+
+        int screenSizeW = (int)[[UIScreen mainScreen] bounds].size.width * [[UIScreen mainScreen] scale];
+
+        int screenSizeH = (int)[[UIScreen mainScreen] bounds].size.height * [[UIScreen mainScreen] scale];
+
+        NSLog(@"screen size : %d %d", screenSizeW, screenSizeH);
+ */
+    }
 
     @IBAction func Bclick_green_btn(_ sender: Any) {
         MyTemp().dlog("Bclick_green_btn viewcontroller")
- 
+        
         guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "st_vv_ViewController") else {
             return
         }
@@ -38,9 +54,17 @@ class ViewController: UIViewController {
 */
     }
     
-    @IBAction func Bclick_btn(_ sender: Any) {
+    @IBAction func Bclick_btn(_ sender: Any) { // Red btn
         MyTemp().dlog("click btn viewcontroller")
 // find storyboard controller
+        ////////////////////////////////////////
+        let ad = UIApplication.shared.delegate as? AppDelegate
+
+        ad?.paramEmail = "이메일 변경함"
+        print("전역변수 = \(ad?.paramEmail)")
+        
+//        print("전역변수 = \((UIApplication.shared.delegate).paramEmail)")
+        ///////////////////////////////////////
         
         guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "BaseViewController") else {
             return

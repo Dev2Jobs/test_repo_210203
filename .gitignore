@@ -1,6 +1,12 @@
 # Created by https://www.toptal.com/developers/gitignore/api/xcode,swift,cocoapods
 # Edit at https://www.toptal.com/developers/gitignore?templates=xcode,swift,cocoapods
 
+### Other ### 
+
+GoogleService-Info.plist
+except_upload_all/
+temp_all/
+
 ### CocoaPods ###
 ## CocoaPods GitIgnore Template
 

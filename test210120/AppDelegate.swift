@@ -9,17 +9,30 @@ import UIKit
 
 //import SnapKit
 //import Then
+import Firebase
 
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
+    var paramEmail : String?
+    var paramUpdate : Bool?
+    var paramInterval : Double?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
 //        sleep(10) // 로고 화면 지연 시간(sec)
+        
+        // Use Firebase library to configure APIs
+        FirebaseApp.configure()
+        
+        
+        print("전역변수 = \(MyValue.sharedInstance().globalstring)")
+//        MyValue.sharedInstance().globalstring = "change test"
+        paramEmail = "이메일 appdel"
+        print("전역변수 = \(paramEmail)")
         
         return true
     }

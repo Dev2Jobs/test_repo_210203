@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		066F78C525D2A08000844EEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 066F78C425D2A08000844EEF /* GoogleService-Info.plist */; };
 		066FCD8525C03F3E00FB5477 /* MyTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066FCD8425C03F3E00FB5477 /* MyTemp.swift */; };
 		066FCD8D25C061B400FB5477 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066FCD8C25C061B400FB5477 /* BaseViewController.swift */; };
 		066FCD9A25C0778300FB5477 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066FCD9925C0778300FB5477 /* MainViewController.swift */; };
@@ -15,6 +16,9 @@
 		0672AF5D25C3FAD900DF2710 /* st_c_NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0672AF5C25C3FAD900DF2710 /* st_c_NavigationController.swift */; };
 		0672AF6525C43DA300DF2710 /* Base_item_1_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0672AF6425C43DA300DF2710 /* Base_item_1_ViewController.swift */; };
 		0672AF6A25C43DB100DF2710 /* Base_item_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0672AF6925C43DB100DF2710 /* Base_item_2_ViewController.swift */; };
+		06885C9E25CD207A00B10F31 /* t_im_all in Resources */ = {isa = PBXBuildFile; fileRef = 06885C9D25CD207A00B10F31 /* t_im_all */; };
+		06907FAA25D3AE7600EF67C7 /* MyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06907FA925D3AE7600EF67C7 /* MyValue.swift */; };
+		06907FB725D3F0BE00EF67C7 /* View_make.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06907FB625D3F0BE00EF67C7 /* View_make.xib */; };
 		06E94F4F25B864D900B82E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E94F4E25B864D900B82E07 /* AppDelegate.swift */; };
 		06E94F5125B864D900B82E07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E94F5025B864D900B82E07 /* SceneDelegate.swift */; };
 		06E94F5325B864D900B82E07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E94F5225B864D900B82E07 /* ViewController.swift */; };
@@ -46,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		066F78C425D2A08000844EEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		066FCD8425C03F3E00FB5477 /* MyTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTemp.swift; sourceTree = "<group>"; };
 		066FCD8C25C061B400FB5477 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		066FCD9925C0778300FB5477 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +59,9 @@
 		0672AF5C25C3FAD900DF2710 /* st_c_NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = st_c_NavigationController.swift; sourceTree = "<group>"; };
 		0672AF6425C43DA300DF2710 /* Base_item_1_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base_item_1_ViewController.swift; sourceTree = "<group>"; };
 		0672AF6925C43DB100DF2710 /* Base_item_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base_item_2_ViewController.swift; sourceTree = "<group>"; };
+		06885C9D25CD207A00B10F31 /* t_im_all */ = {isa = PBXFileReference; lastKnownFileType = folder; path = t_im_all; sourceTree = "<group>"; };
+		06907FA925D3AE7600EF67C7 /* MyValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyValue.swift; sourceTree = "<group>"; };
+		06907FB625D3F0BE00EF67C7 /* View_make.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View_make.xib; sourceTree = "<group>"; };
 		06E94F4B25B864D900B82E07 /* test210120.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test210120.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E94F4E25B864D900B82E07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06E94F5025B864D900B82E07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +140,7 @@
 		06E94F4D25B864D900B82E07 /* test210120 */ = {
 			isa = PBXGroup;
 			children = (
+				06885C9D25CD207A00B10F31 /* t_im_all */,
 				06E94F4E25B864D900B82E07 /* AppDelegate.swift */,
 				06E94F5025B864D900B82E07 /* SceneDelegate.swift */,
 				06E94F5225B864D900B82E07 /* ViewController.swift */,
@@ -142,11 +151,14 @@
 				0672AF5C25C3FAD900DF2710 /* st_c_NavigationController.swift */,
 				0672AF5725C3FA8200DF2710 /* st_base_ViewController.swift */,
 				066FCD8425C03F3E00FB5477 /* MyTemp.swift */,
+				06907FA925D3AE7600EF67C7 /* MyValue.swift */,
+				06907FB625D3F0BE00EF67C7 /* View_make.xib */,
 				06E94F5425B864D900B82E07 /* Main.storyboard */,
 				0672AF5225C3EB1D00DF2710 /* st_secnn.storyboard */,
 				06E94F5725B864DA00B82E07 /* Assets.xcassets */,
 				06E94F5925B864DA00B82E07 /* LaunchScreen.storyboard */,
 				06E94F5C25B864DA00B82E07 /* Info.plist */,
+				066F78C425D2A08000844EEF /* GoogleService-Info.plist */,
 			);
 			path = test210120;
 			sourceTree = "<group>";
@@ -300,10 +312,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06907FB725D3F0BE00EF67C7 /* View_make.xib in Resources */,
 				06E94F5B25B864DA00B82E07 /* LaunchScreen.storyboard in Resources */,
 				06E94F5825B864DA00B82E07 /* Assets.xcassets in Resources */,
+				06885C9E25CD207A00B10F31 /* t_im_all in Resources */,
 				06E94F5625B864D900B82E07 /* Main.storyboard in Resources */,
 				0672AF5325C3EB1D00DF2710 /* st_secnn.storyboard in Resources */,
+				066F78C525D2A08000844EEF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +456,7 @@
 				0672AF6525C43DA300DF2710 /* Base_item_1_ViewController.swift in Sources */,
 				0672AF5D25C3FAD900DF2710 /* st_c_NavigationController.swift in Sources */,
 				066FCD8525C03F3E00FB5477 /* MyTemp.swift in Sources */,
+				06907FAA25D3AE7600EF67C7 /* MyValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +562,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -601,7 +617,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
